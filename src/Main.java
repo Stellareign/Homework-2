@@ -1,10 +1,12 @@
-public class Main {
+ublic class Main {
     public static void main(String[] args) {
-        var friend = 19;
+        var friend = 3.5;
         System.out.println(friend);
-        friend = friend + 2;
+        friend = friend * 10;
         System.out.println(friend);
-        friend = friend / 7;
+        friend = friend / 3.5;
+        System.out.println(friend);
+        friend = friend + 4;
         System.out.println(friend);
     }
 }
